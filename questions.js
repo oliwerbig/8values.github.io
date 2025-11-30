@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "A nagyvállalatok általi elnyomás nagyobb aggodalomra ad okot, mint a kormányok általi elnyomás.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -9,7 +9,7 @@ questions = [
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "Szükséges, hogy a kormány beavatkozzon a gazdaságba a fogyasztók védelme érdekében.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -18,7 +18,7 @@ questions = [
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "Minél szabadabb a piac, annál szabadabbak az emberek.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -27,7 +27,7 @@ questions = [
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "Jobb fenntartani a kiegyensúlyozott költségvetést, mint biztosítani a jólétet minden állampolgár számára.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -36,7 +36,7 @@ questions = [
         }
     },
     {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+        "question": "A közfinanszírozott kutatás hasznosabb az emberek számára, mintha a piacra bíznánk.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -45,7 +45,7 @@ questions = [
         }
     },
     {
-        "question": "Tariffs on international trade are important to encourage local production.",
+        "question": "A nemzetközi kereskedelemre kivetett vámok fontosak a helyi termelés ösztönzése érdekében.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -54,7 +54,7 @@ questions = [
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "Mindenkitől a képességei szerint, mindenkinek a szükségletei szerint.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -63,7 +63,7 @@ questions = [
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "A legjobb lenne, ha a szociális programokat megszüntetnék a magánjótékonyság javára.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -72,7 +72,7 @@ questions = [
         }
     },
     {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "A gazdagok adóját növelni kell a szegények támogatása érdekében.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -81,7 +81,7 @@ questions = [
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "Az öröklés a vagyon legitim formája.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -90,7 +90,7 @@ questions = [
         }
     },
     {
-        "question": "Basic utilities like roads and electricity should be publicly owned.",
+        "question": "Az alapvető közműveknek, mint az utak és az elektromosság, köztulajdonban kell lenniük.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -99,7 +99,7 @@ questions = [
         }
     },
     {
-        "question": "Government intervention is a threat to the economy.",
+        "question": "A kormányzati beavatkozás fenyegetést jelent a gazdaságra.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -108,7 +108,7 @@ questions = [
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "Azoknak, akik többet tudnak fizetni, jobb egészségügyi ellátást kellene kapniuk.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "Quality education is a right of all people.",
+        "question": "A minőségi oktatás minden ember joga.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -126,7 +126,7 @@ questions = [
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "A termelőeszközöknek azoknak a munkásoknak a tulajdonában kell lenniük, akik használják őket.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -135,7 +135,7 @@ questions = [
         }
     },
     {
-        "question": "The United Nations should be abolished.",
+        "question": "Az Egyesült Nemzeteket (ENSZ) meg kellene szüntetni.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -144,7 +144,7 @@ questions = [
         }
     },
     {
-        "question": "Military action by our nation is often necessary to protect it.",
+        "question": "Nemzetünk katonai fellépése gyakran szükséges a védelem érdekében.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -153,7 +153,7 @@ questions = [
         }
     },
     {
-        "question": "I support regional unions, such as the European Union.",
+        "question": "Támogatom a regionális uniókat, mint például az Európai Unió.",
         "effect": {
             "econ": -5,
             "dipl": 10,
@@ -162,7 +162,7 @@ questions = [
         }
     },
     {
-        "question": "It is important to maintain our national sovereignty.",
+        "question": "Fontos fenntartani nemzeti szuverenitásunkat.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -171,7 +171,7 @@ questions = [
         }
     },
     {
-        "question": "A united world government would be beneficial to mankind.",
+        "question": "Egy egységes világkormány hasznos lenne az emberiség számára.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -180,7 +180,7 @@ questions = [
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "Fontosabb a békés kapcsolatok fenntartása, mint erőnk növelése.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -189,7 +189,7 @@ questions = [
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        "question": "A háborúkat nem kell igazolni más országok felé.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -198,7 +198,7 @@ questions = [
         }
     },
     {
-        "question": "Military spending is a waste of money.",
+        "question": "A katonai kiadások pénzpazarlást jelentenek.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -207,7 +207,7 @@ questions = [
         }
     },
     {
-        "question": "International aid is a waste of money.",
+        "question": "A nemzetközi segélyek pénzpazarlást jelentenek.",
         "effect": {
             "econ": -5,
             "dipl": -10,
@@ -216,7 +216,7 @@ questions = [
         }
     },
     {
-        "question": "My nation is great.",
+        "question": "A nemzetem nagyszerű.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -225,7 +225,7 @@ questions = [
         }
     },
     {
-        "question": "Research should be conducted on an international scale.",
+        "question": "A kutatásokat nemzetközi szinten kellene folytatni.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -234,7 +234,7 @@ questions = [
         }
     },
     {
-        "question": "Governments should be accountable to the international community.",
+        "question": "A kormányoknak elszámoltathatónak kell lenniük a nemzetközi közösség felé.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -243,7 +243,7 @@ questions = [
         }
     },
     {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "question": "Még egy tekintélyelvű kormány elleni tiltakozás során sem elfogadható az erőszak.",
         "effect": {
             "econ": 0,
             "dipl": 5,
@@ -252,7 +252,7 @@ questions = [
         }
     },
     {
-        "question": "My religious values should be spread as much as possible.",
+        "question": "Vallási értékeimet a lehető legszélesebb körben terjeszteni kell.",
         "effect": {
             "econ": 0,
             "dipl": -5,
@@ -261,7 +261,7 @@ questions = [
         }
     },
     {
-        "question": "Our nation's values should be spread as much as possible.",
+        "question": "Nemzetünk értékeit a lehető legszélesebb körben terjeszteni kell.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -270,7 +270,7 @@ questions = [
         }
     },
     {
-        "question": "It is very important to maintain law and order.",
+        "question": "Nagyon fontos a rend és a törvényesség fenntartása.",
         "effect": {
             "econ": 0,
             "dipl": -5,
@@ -279,7 +279,7 @@ questions = [
         }
     },
     {
-        "question": "The general populace makes poor decisions.",
+        "question": "Az átlagemberek rossz döntéseket hoznak.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -288,7 +288,7 @@ questions = [
         }
     },
     {
-        "question": "Physician-assisted suicide should be legal.",
+        "question": "Az orvos által segített öngyilkosságnak (eutanázia) legálisnak kellene lennie.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -297,7 +297,7 @@ questions = [
         }
     },
     {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "question": "Egyes polgári szabadságjogok feláldozása szükséges a terrorizmus elleni védelem érdekében.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -306,7 +306,7 @@ questions = [
         }
     },
     {
-        "question": "Government surveillance is necessary in the modern world.",
+        "question": "A kormányzati megfigyelés szükséges a modern világban.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -315,7 +315,7 @@ questions = [
         }
     },
     {
-        "question": "The very existence of the state is a threat to our liberty.",
+        "question": "Az állam puszta létezése fenyegetést jelent a szabadságunkra.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -324,7 +324,7 @@ questions = [
         }
     },
     {
-        "question": "Regardless of political opinions, it is important to side with your country.",
+        "question": "Politikai véleménytől függetlenül fontos, hogy az országod oldalára állj.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -333,7 +333,7 @@ questions = [
         }
     },
     {
-        "question": "All authority should be questioned.",
+        "question": "Minden tekintélyt meg kell kérdőjelezni.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -342,7 +342,7 @@ questions = [
         }
     },
     {
-        "question": "A hierarchical state is best.",
+        "question": "A hierarchikus állam a legjobb.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -351,7 +351,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "question": "Fontos, hogy a kormány kövesse a többségi véleményt, még akkor is, ha az téves.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -360,7 +360,7 @@ questions = [
         }
     },
     {
-        "question": "The stronger the leadership, the better.",
+        "question": "Minél erősebb a vezetés, annál jobb.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -369,7 +369,7 @@ questions = [
         }
     },
     {
-        "question": "Democracy is more than a decision-making process.",
+        "question": "A demokrácia több, mint egy döntéshozatali folyamat.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -378,7 +378,7 @@ questions = [
         }
     },
     {
-        "question": "Environmental regulations are essential.",
+        "question": "A környezetvédelmi szabályozások elengedhetetlenek.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -387,7 +387,7 @@ questions = [
         }
     },
     {
-        "question": "A better world will come from automation, science, and technology.",
+        "question": "Egy jobb világ jön el az automatizálás, a tudomány és a technológia révén.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -396,7 +396,7 @@ questions = [
         }
     },
     {
-        "question": "Children should be educated in religious or traditional values.",
+        "question": "A gyermekeket vallási vagy hagyományos értékekre kell nevelni.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -405,7 +405,7 @@ questions = [
         }
     },
     {
-        "question": "Traditions are of no value on their own.",
+        "question": "A hagyományok önmagukban nem képviselnek értéket.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -414,7 +414,7 @@ questions = [
         }
     },
     {
-        "question": "Religion should play a role in government.",
+        "question": "A vallásnak szerepet kell játszania a kormányzásban.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -423,7 +423,7 @@ questions = [
         }
     },
     {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
+        "question": "Az egyházakat ugyanúgy kellene adóztatni, mint más intézményeket.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -432,7 +432,7 @@ questions = [
         }
     },
     {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
+        "question": "A klímaváltozás jelenleg az egyik legnagyobb fenyegetés az életmódunkra.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -441,7 +441,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that we work as a united world to combat climate change.",
+        "question": "Fontos, hogy egységes világként lépjünk fel a klímaváltozás ellen.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -450,7 +450,7 @@ questions = [
         }
     },
     {
-        "question": "Society was better many years ago than it is now.",
+        "question": "A társadalom régen jobb volt, mint most.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -459,7 +459,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that we maintain the traditions of our past.",
+        "question": "Fontos, hogy megőrizzük a múltunk hagyományait.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -468,7 +468,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that we think in the long term, beyond our lifespans.",
+        "question": "Fontos, hogy hosszú távon gondolkodjunk, túl az élettartamunkon.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -477,7 +477,7 @@ questions = [
         }
     },
     {
-        "question": "Reason is more important than maintaining our culture.",
+        "question": "Az ész fontosabb, mint a kultúránk fenntartása.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -486,7 +486,7 @@ questions = [
         }
     },
     {
-        "question": "Drug use should be legalized or decriminalized.",
+        "question": "A kábítószer-használatot legalizálni vagy dekriminalizálni kellene.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -495,7 +495,7 @@ questions = [
         }
     },
     {
-        "question": "Same-sex marriage should be legal.",
+        "question": "Az azonos neműek házasságának legálisnak kellene lennie.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -504,7 +504,7 @@ questions = [
         }
     },
     {
-        "question": "No cultures are superior to others.",
+        "question": "Egyetlen kultúra sem felsőbbrendű a többinél.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -513,7 +513,7 @@ questions = [
         }
     },
     {
-        "question": "Sex outside marriage is immoral.",
+        "question": "A házasságon kívüli szex erkölcstelen.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -522,7 +522,7 @@ questions = [
         }
     },
     {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
+        "question": "Ha már befogadunk migránsokat, fontos, hogy asszimilálódjanak a kultúránkba.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -531,7 +531,7 @@ questions = [
         }
     },
     {
-        "question": "Abortion should be prohibited in most or all cases.",
+        "question": "Az abortuszt a legtöbb vagy minden esetben be kellene tiltani.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -540,7 +540,7 @@ questions = [
         }
     },
     {
-        "question": "Gun ownership should be prohibited for those without a valid reason.",
+        "question": "A fegyvertartást be kellene tiltani azok számára, akiknek nincs rá érvényes indokuk.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -549,7 +549,7 @@ questions = [
         }
     },
     {
-        "question": "I support single-payer, universal healthcare.",
+        "question": "Támogatom az egyfizetős, univerzális egészségügyi ellátást.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -558,7 +558,7 @@ questions = [
         }
     },
     {
-        "question": "Prostitution should be illegal.",
+        "question": "A prostitúciónak illegálisnak kellene lennie.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -567,7 +567,7 @@ questions = [
         }
     },
     {
-        "question": "Maintaining family values is essential.",
+        "question": "A családi értékek fenntartása elengedhetetlen.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -576,7 +576,7 @@ questions = [
         }
     },
     {
-        "question": "To chase progress at all costs is dangerous.",
+        "question": "A haladás hajszolása minden áron veszélyes.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -585,7 +585,7 @@ questions = [
         }
     },
     {
-        "question": "Genetic modification is a force for good, even on humans.",
+        "question": "A genetikai módosítás jó dolog, még embereken is.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -594,7 +594,7 @@ questions = [
         }
     },
     {
-        "question": "We should open our borders to immigration.",
+        "question": "Meg kellene nyitnunk határainkat a bevándorlás előtt.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -603,7 +603,7 @@ questions = [
         }
     },
     {
-        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
+        "question": "A kormányoknak ugyanolyan mértékben kellene törődniük a külföldiekkel, mint a saját állampolgáraikkal.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -612,7 +612,7 @@ questions = [
         }
     },
     {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
+        "question": "Minden embert - függetlenül olyan tényezőktől, mint a kultúra vagy a szexualitás - egyenlően kell kezelni.",
         "effect": {
             "econ": 10,
             "dipl": 10,
@@ -621,7 +621,7 @@ questions = [
         }
     },
     {
-        "question": "It is important that we further my group's goals above all others.",
+        "question": "Fontos, hogy a saját csoportom céljait mindenki másé fölé helyezzük.",
         "effect": {
             "econ": -10,
             "dipl": -10,

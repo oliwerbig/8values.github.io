@@ -20,10 +20,10 @@
 <h1>8values</h1>
 <hr>
 <div class="center">
-    <div class="axis_name quadcolumn">ECONOMIC</div>
-    <div class="axis_name quadcolumn">DIPLOMATIC</div>
-    <div class="axis_name quadcolumn">CIVIL</div>
-    <div class="axis_name quadcolumn">SOCIETAL</div>
+    <div class="axis_name quadcolumn">GAZDASÁGI</div>
+    <div class="axis_name quadcolumn">DIPLOMÁCIAI</div>
+    <div class="axis_name quadcolumn">POLGÁRI</div>
+    <div class="axis_name quadcolumn">TÁRSADALMI</div>
     <a href="#anchor"><img src="value_images/equality.svg" class="quadcolumn"></a>
     <a href="#anchor"><img src="value_images/nation.svg" class="quadcolumn"></a>
     <a href="#anchor"><img src="value_images/liberty.svg" class="quadcolumn"></a>
@@ -34,95 +34,95 @@
     <a href="#anchor"><img src="value_images/progress.svg" class="quadcolumn"></a>
 </div>
 <br>
-<button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Click here to start!</button>
+<button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Kattints ide a kezdéshez!</button>
 <br><hr>
-<h2>What is 8values?</h2>
-    <p>8values is, in essence, a political quiz that attempts to assign percentages for eight different political values. You will be presented by a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br />
-    There are <b><u><span id="numOfQuestions"></span></u></b> questions in the test.</p>
+<h2>Mi az a 8values?</h2>
+    <p>A 8values lényegében egy politikai kvíz, amely megpróbál százalékos arányokat rendelni nyolc különböző politikai értékhez. Különböző állításokkal fogsz találkozni, és véleményt kell nyilvánítanod róluk a <b>Teljesen egyetértek</b>-től a <b>Teljesen ellenzem</b>-ig, ahol minden válasz befolyásolja az eredményedet. A kvíz végén a válaszaidat összehasonlítjuk az egyes értékek maximális lehetséges pontszámával, így kapod meg a százalékos eredményt. Válaszolj őszintén!<br /><br />
+    A tesztben <b><u><span id="numOfQuestions"></span></u></b> kérdés található.</p>
 
-<h2><a id="anchor">What are the eight values?</a></h2>
-    <p>There are four independent axes - Economic, Diplomatic, Civil, and Society - and each has two opposing values assigned to them. They are:</p>
+<h2><a id="anchor">Mi ez a nyolc érték?</a></h2>
+    <p>Négy független tengely van - Gazdasági, Diplomáciai, Polgári és Társadalmi -, és mindegyikhez két ellentétes érték tartozik. Ezek a következők:</p>
     <div class="explanation_bg">
         <div class="spacer">
             <div class="explanation_blurb_left">
-                <p class="value"><b style="color:#d32f2f;">EQUALITY</b></p>
+                <p class="value"><b style="color:#d32f2f;">EGYENLŐSÉG</b></p>
                 <p class="blurb-text">
-                    Those with higher Equality scores believe the economy should distribute value evenly among the populace. They tend to support progressive tax codes, social programs, and at high values, socialism.
+                    A magasabb Egyenlőség pontszámmal rendelkezők támogatják az állami beavatkozást, a szociális hálót és a közszolgáltatások (oktatás, egészségügy) erősítését. Gyakran kritikusak a nagyvállalatokkal szemben.
                 </p>
             </div>
             <div class="explanation_axis">
-                <p class="axis_name">ECONOMIC</p>
+                <p class="axis_name">GAZDASÁGI</p>
                 <img class="arrow" src="double_arrow.svg"></img>
             </div>
             <div class="explanation_blurb_right">
-                <p class="value"><b style="color:#00796b;">MARKETS</b></p>
+                <p class="value"><b style="color:#00796b;">PIAC</b></p>
                 <p class="blurb-text">
-                    Those with higher Market scores believe the economy should be focused on rapid growth. They tend to support lower taxes, privatization, deregulation, and at high values, laissez-faire capitalism.
+                    A magasabb Piac pontszámmal rendelkezők a szabad versenyben és a magántulajdonban hisznek. Támogatják az alacsony adókat, a deregulációt és a kisebb állami szerepvállalást a gazdaságban.
                 </p>
             </div>
         </div>
         <div class="spacer">
             <div class="explanation_blurb_left">
-                <p class="value"><b style="color:#f57c00;">NATION</b></p>
+                <p class="value"><b style="color:#f57c00;">NEMZET</b></p>
                 <p class="blurb-text">
-                    Those with higher Nation scores are patriotic and nationalist. They often believe in an aggressive foreign policy, valuing the military, strength, sovereignty, and at high values, territorial expansion.
+                    A magasabb Nemzet pontszámmal rendelkezők a nemzeti szuverenitást helyezik előtérbe. Gyakran kritikusak az EU-val és a nemzetközi szervezetekkel szemben, és fontosnak tartják a határok védelmét.
                 </p>
             </div>
             <div class="explanation_axis">
-                <p class="axis_name">DIPLOMATIC</p>
+                <p class="axis_name">DIPLOMÁCIAI</p>
                 <img class="arrow" src="double_arrow.svg"></img>
             </div>
             <div class="explanation_blurb_right">
-                <p class="value"><b style="color:#0288d1;">GLOBE</b></p>
+                <p class="value"><b style="color:#0288d1;">VILÁG</b></p>
                 <p class="blurb-text">
-                    Those with higher Globe scores are cosmopolitan and globalist. They often believe in a peaceful foreign policy, emphasizing diplomacy, cooperation, integration, and at high values, a world government.
+                    A magasabb Világ pontszámmal rendelkezők támogatják a nemzetközi együttműködést, az európai integrációt és a nyitott határokat. Hisznek abban, hogy Magyarország jövője a nyugati szövetségi rendszerekben van.
                 </p>
             </div>
         </div>
         <div class="spacer">
             <div class="explanation_blurb_left">
-                <p class="value"><b style="color:#fbc02d;">LIBERTY</b></p>
+                <p class="value"><b style="color:#fbc02d;">SZABADSÁG</b></p>
                 <p class="blurb-text">
-                    Those with higher Liberty scores believe in strong civil liberties. They tend to support democracy and oppose state intervention in personal lives. Note that this refers to civil liberties, not economic liberties.
+                    A magasabb Szabadság pontszámmal rendelkezők a jogállamiságot, a fékek és ellensúlyok rendszerét és az egyéni szabadságjogokat tartják a legfontosabbnak. Ellenzik a túlzott állami kontrollt.
                 </p>
             </div>
             <div class="explanation_axis">
-                <p class="axis_name">CIVIL</p>
+                <p class="axis_name">POLGÁRI</p>
                 <img class="arrow" src="double_arrow.svg"></img>
             </div>
             <div class="explanation_blurb_right">
-                <p class="value"><b style="color:#303f9f;">AUTHORITY</b></p>
+                <p class="value"><b style="color:#303f9f;">TEKINTÉLY</b></p>
                 <p class="blurb-text">
-                    Those with higher Authority scores believe in strong state power. They tend to support state intervention in personal lives, government surveillance, and at high values, censorship or autocracy.
+                    A magasabb Tekintély pontszámmal rendelkezők hisznek az erős, határozott vezetésben és a rendben. Hajlamosak elfogadni a szabadságjogok korlátozását a stabilitás és a nemzeti érdekek védelme érdekében.
                 </p>
             </div>
         </div>
         <div class="spacer">
             <div class="explanation_blurb_left">
-                <p class="value"><b style="color:#689f38;">TRADITION</b></p>
+                <p class="value"><b style="color:#689f38;">HAGYOMÁNY</b></p>
                 <p class="blurb-text">
-                    Those with higher Tradition scores believe in traditional values and strict adherence to a moral code. Though not always, they are usually religious, and support the status quo or the status quo ante.
+                    A magasabb Hagyomány pontszámmal rendelkezők a keresztény-konzervatív értékeket, a hagyományos családmodellt és a nemzeti kultúra védelmét tartják fontosnak.
                 </p>
             </div>
             <div class="explanation_axis">
-                <p class="axis_name">SOCIETY</p>
+                <p class="axis_name">TÁRSADALMI</p>
                 <img class="arrow" src="double_arrow.svg"></img>
             </div>
             <div class="explanation_blurb_right">
-                <p class="value"><b style="color:#7b1fa2;">PROGRESS</b></p>
+                <p class="value"><b style="color:#7b1fa2;">HALADÁS</b></p>
                 <p class="blurb-text">
-                    Those with higher Progress scores believe in social change and rationality. Though not always, they are usually secular or atheist, and support environmental action and scientific or technological research.
+                    A magasabb Haladás pontszámmal rendelkezők támogatják a társadalmi progressziót, a kisebbségi jogokat (pl. LMBTQ) és a szekularizációt. Hisznek a modernizációban és a tudományos fejlődésben.
                 </p>
             </div>
         </div>
         <br/>
     </div>
 
-<h2 style="margin-top: 17pt;">What's the "Closest Match" mean at the bottom of the results?</h2>
-    <p>In addition to matching you to the eight values, the quiz also attempts to match you to a political ideology. This is a work in progress and is much less accurate than the values and axes, so don't take it too seriously. If you disagree with your assigned ideology, send us an email at eightvalues@gmail.com with your scores, matched ideology, and preferred ideology, and we'll look into adjusting the system. Thanks!</p>
-<h2>I don't like my scores!</h2>
+<h2 style="margin-top: 17pt;">Mit jelent a "Legközelebbi egyezés" az eredmények alján?</h2>
+    <p>A nyolc értékhez való párosítás mellett a kvíz megpróbál egy politikai ideológiához is hozzárendelni. Ez a funkció még fejlesztés alatt áll, és sokkal kevésbé pontos, mint az értékek és tengelyek, ezért ne vedd túl komolyan. Ha nem értesz egyet a kapott ideológiával, küldj nekünk egy e-mailt az eightvalues@gmail.com címre a pontszámaiddal, a kapott ideológiával és a preferált ideológiával, és megvizsgáljuk a rendszer módosítását. Köszönjük!</p>
+<h2>Nem tetszenek az eredményeim!</h2>
     <p>¯\_(ツ)_/¯<br/>
-    If you have any suggestions or constructive criticism, feel free to send it to <a href="mailto:eightvalues@gmail.com">eightvalues@gmail.com</a> or open an issue on the GitHub page here: <a href="https://github.com/8values/8values.github.io">GitHub Page</a></p>
+    Ha bármilyen javaslatod vagy építő jellegű kritikád van, nyugodtan küldd el az <a href="mailto:eightvalues@gmail.com">eightvalues@gmail.com</a> címre, vagy nyiss egy hibajegyet a GitHub oldalon itt: <a href="https://github.com/8values/8values.github.io">GitHub oldal</a></p>
 <br>
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
